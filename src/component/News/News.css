@@ -1,0 +1,37 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.card {
+    border: 2px solid #333;
+    background:  #333;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #333;
+    background: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
